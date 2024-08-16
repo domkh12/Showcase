@@ -104,12 +104,15 @@ export default function NavBarComponent() {
                   <FaTelegramPlane className="mr-2 h-5 w-5" />
                 )}
                 {isLoading ? (
-                  <Skeleton
-                  className="sm:w-[250px] w-[100px] h-[20px]"
-                  />
+                  <Skeleton className="sm:w-[250px] w-[100px] h-[20px]" />
                 ) : (
                   <p className="text-sm font-normal">
-                    Join our Telegram Community! Stay connected and updated!
+                    <span className="sm:hidden block">
+                      Join our Telegram Community!
+                    </span>
+                    <span className="sm:block hidden">
+                      Join our Telegram Community! Stay connected and updated!
+                    </span>
                   </p>
                 )}
               </div>
@@ -119,10 +122,7 @@ export default function NavBarComponent() {
                 ) : (
                   <button
                     onClick={() =>
-                      window.open(
-                        "https://t.me/showcasecommunityvip",
-                        "_blank"
-                      )
+                      window.open("https://t.me/showcasecommunityvip", "_blank")
                     }
                     className="px-3 py-1 bg-white text-primary hover:bg-gray-200 rounded-md text-sm"
                   >
