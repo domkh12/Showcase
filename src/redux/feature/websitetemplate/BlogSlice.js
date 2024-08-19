@@ -8,13 +8,13 @@ const staticBlogs = [
     id: 1,
     title: "Sample Blog 1",
     description: "This is a sample blog description.",
-    images: ["https://example.com/image1.jpg"],
+    image: ["https://example.com/image1.jpg"],
   },
   {
     id: 2,
     title: "Sample Blog 2",
     description: "This is another sample blog description.",
-    images: ["https://example.com/image2.jpg"],
+    image: ["https://example.com/image2.jpg"],
   },
 ];
 
