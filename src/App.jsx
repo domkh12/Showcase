@@ -44,7 +44,7 @@ function App() {
     image: "https://i.pinimg.com/originals/4c/75/51/4c755189bc817fb45a06549f29b21240.png",
   };
   return (
-    <HelmetProvider>
+    <>
       <SEO {...meta} />
       <header>
         <NavBarComponent />
@@ -62,7 +62,7 @@ function App() {
       </footer>
       <ScrollToTopButton />
       <ToastContainer />
-    </HelmetProvider>
+    </>
   );
 }
 
