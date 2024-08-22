@@ -41,7 +41,7 @@ function App() {
       "Showcase: Build and customize your professional portfolio effortlessly. Choose templates, edit content, and share your portfolio online.",
     keywords:
       "portfolio builder, professional portfolio, website builder, templates, portfolio customization, Showcase",
-    image: "https://i.pinimg.com/originals/4c/75/51/4c755189bc817fb45a06549f29b21240.png",
+    image: "https://i.pinimg.com/originals/91/25/be/9125bec821f954bdbdf5db69e7c27552.png",
   };
   return (
     <>

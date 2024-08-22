@@ -79,7 +79,7 @@ function LoginSection() {
       "Login to Showcase - Access your professional portfolio account and continue building or editing your unique portfolio.",
     keywords:
       "login, portfolio builder, professional portfolio, website builder, Showcase",
-    image: "https://i.pinimg.com/originals/4c/75/51/4c755189bc817fb45a06549f29b21240.png",
+    image: "https://i.pinimg.com/originals/91/25/be/9125bec821f954bdbdf5db69e7c27552.png",
   };
 
   return (
