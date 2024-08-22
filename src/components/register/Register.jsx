@@ -82,7 +82,7 @@ export function ComponentRegister() {
       "Register for Showcase - Create your professional portfolio effortlessly. Join us today and start building your unique portfolio.",
     keywords:
       "register, portfolio builder, professional portfolio, website builder, Showcase",
-    image: "https://i.pinimg.com/originals/91/25/be/9125bec821f954bdbdf5db69e7c27552.png",
+    image: "https://i.pinimg.com/originals/43/85/40/4385407d405e13cf7c9e428326fc9dbc.png",
   };
 
   return (
